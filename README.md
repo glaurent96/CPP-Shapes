@@ -41,6 +41,8 @@ point 15 3 ?
 ```
 ---
 ### Run Automated Tests
+Double click on tests.zip file to unzip the tests folder.
+&nbsp;
 Run executable testing script:
 ```bash
 ./run_tests Shapes
