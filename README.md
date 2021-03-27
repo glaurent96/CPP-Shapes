@@ -50,3 +50,20 @@ Run executable testing script:
 
 >The script will create a results folder with all the program outputs generated from the tests. Check the tests folder if any tests fail to compare with expected output.
 ---
+### For Windows users 
+Follow this tutorial below to download the MinGW compiler:
+> Note: Skip the Visual Basic steps and jump straight to installing MinGW
+https://code.visualstudio.com/docs/languages/cpp
+
+Once you have downloaded the compiler, using the command prompt navigate to the root directory of the project you want to compile and execute this command:
+```bash
+mingw32-make.exe
+```
+This will create an executable file in your directory. Use this command to start the program in the command prompt:
+```bash
+bst.exe
+```
+Or you can just use the UNIX command in the powershell:
+```bash
+./bst
+```
